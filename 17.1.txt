@@ -1,0 +1,21 @@
+17.1
+❓ What data structure would be represented by the 'back' button in the browser? Stack
+
+❓ What data structure would be represented by sending documents to the printer?Queue
+
+❓ What data structure would be represented by the 'undo' or Cmd-Z function? Stack
+
+❓ Imagine that you started with an empty stack and perform the following operations:[0, 2, 8]
+❓ Imagine that you start with an empty queue and perform the following operations:["Popcorn", 515, "Smile!"]
+
+❓ Quick refresher: The major difference between a linked list and an array is how they store data in a computer’s memory.
+Which of the following statements is true about how linked lists and arrays store data?
+This statement is true for linked lists. Linked lists use nodes with pointers to reference the next (and sometimes previous) node in the sequence. Each node can be located anywhere in the computer's memory, allowing for dynamic memory allocation.
+
+In contrast, arrays store data in one continuous block of memory, and elements are accessed using indices. The statement "Arrays store data in one continuous block of memory" is true, but the statement "Arrays can store data anywhere in a computer's memory using the index" is not accurate. Arrays are stored in a contiguous block of memory, and their elements are accessed through their position in that block, determined by an index.
+
+
+❓ You're working on building a message board and want to display only the 10 most recent messages a user posted, in the order they were posted. Which data structure should you use?Use a Queue to maintain the order of posting and limit the size to 10.
+
+❓ You and your partner are going out for your anniversary dinner. When you arrive, you ask the host for a table for two and your name goes on the waiting list. While you’re waiting, a group of seven people walks right in and gets seated. What gives?!
+his scenario represents a Priority Queue, where the group of seven people may have had a higher priority than the two people
